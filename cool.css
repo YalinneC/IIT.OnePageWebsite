@@ -84,17 +84,36 @@ body {
 .bottomSlideBox {
 	border-top: 0pt;
 }
-#titleBox {
-	padding: 20pt;
-	margin: 20pt;
+.titleBox {
+	padding: 40pt;
+}
+.titleTextBox {
+	position: absolute;
+	left: 10pt;
+	padding: 10pt;
+	margin: 10pt;
 }
 #regBox {
 	padding: 10pt;
 	margin: 10pt;
 }
-#textBox {
+.textBox {
+	position: absolute;
+	left: 240pt;
 	padding: 10pt;
 	margin: 10pt;
+}
+.posterBox {
+	position: absolute;
+	left: 10pt;
+	padding: 10pt;
+	margin: 10pt;
+}
+.posterImg {
+	margin-left: 4pt; 
+	height: 300pt;
+	position: relative;
+	bottom: -2pt;
 }
 #sponsorBox {
 	padding-bottom: 10pt;
