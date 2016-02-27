@@ -58,7 +58,8 @@ body {
 	margin-right: 10pt;
 	margin-top: 10pt;
 }
-.contentBox { 
+
+.slideBox { 
 	background-image: url("oscarClipartNegSmDist.jpg"); 
 	background-repeat: repeat; 
 	background-position: left top;
@@ -69,9 +70,19 @@ body {
 	text-align: center;
 	display: block;
 	margin: auto;
-	border: 5pt solid white;
+	border: 3pt solid white;
 	outline-color: red;
 	position: relative;
+}
+.topSlideBox {
+	border-bottom: 0pt;
+}
+.middleSlideBox {
+	border-top: 0pt;
+	border-bottom: 0pt;
+}
+.bottomSlideBox {
+	border-top: 0pt;
 }
 #titleBox {
 	padding: 20pt;
