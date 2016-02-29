@@ -87,8 +87,7 @@ html , body {
 	align-items: center;
 	justify-content: center;
 	min-height: 96%;
-	min-width: 80%;
-	max-width: 400pt;
+	max-width: 700pt;
 	margin: auto;
 }
 
@@ -126,8 +125,6 @@ html , body {
 	padding-bottom: 20pt;
 }
 .titleTextBox {
-	position: absolute;
-	left: 1%;
 	padding: 1%;
 	margin: 1%;
 }
@@ -162,7 +159,16 @@ html , body {
 	height: 300pt;
 	position: relative;
 	bottom: 0;
+    vertical-align:top;
+    opacity: 0.85;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;	
 }
+.hover:hover{
+    opacity:1.0;
+}
+
 #sponsorBox {
 	padding-bottom: 1%;
 	margin: auto;
