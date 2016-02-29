@@ -120,9 +120,30 @@ html , body {
 	padding-top: 2em;
 	padding-bottom: 0em;
 }
+.navBox {
+	width: 100%;
+}	
+.navDown {
+	margin-left: 2%;
+	margin-top: 1%;
+	float: left;
+}
+.navUp {
+	margin-right: 2%;
+	margin-top: 2%;
+	float: right;
+}
+.navLink {
+	color: white;
+	text-decoration: none;
+	font-family: "Lato"; 
+	font-weight: 400; 	
+	font-size: 500%;
+	font-weight: bold;	
+}
 
 .titleBox {
-	padding-top: 8em;
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 .titleTextBox {
@@ -215,12 +236,3 @@ p {
 li {
 	margin: 4pt;
 }
-#letterO { font-color: #FF0000; }
-#letterS { color: #FF9900; }
-#letterC { color: #FFFF00; }
-#letterA { color: #66FF00; }
-#letterR { color: #00FF00; }
-#letter2 { color: #00FF99; }
-#letterO { color: #00FFFF; }
-#letter1 { color: #0099FF; }
-#letter6 { color: #0000FF; }
