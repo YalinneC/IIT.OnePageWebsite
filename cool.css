@@ -102,10 +102,9 @@ html , body {
 	text-align: center;
 	display: block;
 	margin: auto;
-	padding-top: 2	0pt;
-	padding-bottom: 30pt;
+	padding-top: 3em;
+	padding-bottom: 14em;
 	border: 3pt solid white;
-	outline-color: red;	
 	border-top: 0;
 	border-bottom: 0;
 }
@@ -118,11 +117,13 @@ html , body {
 	border-top: 0;
 	height: 15em;
 	min-height: 0;
+	padding-top: 2em;
+	padding-bottom: 0em;
 }
 
 .titleBox {
-	padding-top: 40pt;
-	padding-bottom: 20pt;
+	padding-top: 8em;
+	padding-bottom: 2em;
 }
 .titleTextBox {
 	padding: 1%;
@@ -170,10 +171,9 @@ html , body {
 }
 
 #sponsorBox {
-	padding-bottom: 1%;
 	margin: auto;
 	position: absolute;
-	bottom: 0;
+	padding-top: 5em;
 	width: 100%;
 	text-align: center;
 }
@@ -195,18 +195,32 @@ h1 {
 	font-weight: 300; 
 	letter-spacing: 4pt;
 	word-spacing: 5pt;
-	font-size: 250%;
+	font-size: 300%;
+	font-weight: bold;
 }
 label { 
 	color: white; 
 	font-family: "Lato"; 
 	font-weight: 400;
+	font-size: 120%;
+	line-height: 140%;	
 }
 p { 
 	color: white; 
 	font-family: "Lato"; 
 	font-weight: 300;
+	font-size: 120%;
+	line-height: 140%;
 }
 li {
 	margin: 4pt;
 }
+#letterO { font-color: #FF0000; }
+#letterS { color: #FF9900; }
+#letterC { color: #FFFF00; }
+#letterA { color: #66FF00; }
+#letterR { color: #00FF00; }
+#letter2 { color: #00FF99; }
+#letterO { color: #00FFFF; }
+#letter1 { color: #0099FF; }
+#letter6 { color: #0000FF; }
