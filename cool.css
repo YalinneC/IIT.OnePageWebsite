@@ -48,75 +48,112 @@ table {
 }
 
 
-
 /* Finally it's time for my CSS code */
-html { height: 100%; }
-body { 
+html , body { 
 	background-color: rgb(42, 42, 42);
-	position:absolute; top:0; bottom:0; right:0; left:0;
-	margin-left: 10pt;
-	margin-right: 10pt;
-	margin-top: 10pt;
+ 	margin: 0;
+    padding: 0;
+	height: 100%;
+}
+#mainBG {
+	height: 100%
+    background-color: rgb(42, 42, 42);		
+}
+
+#slidesContainer {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-align-items: center;
+    align-items: center;	
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 96%;
+	min-width: 80%;
+	max-width: 400pt;
+	margin: auto;
 }
 
 .slideBox { 
+	position: relative;
 	background-image: url("oscarClipartNegSmDist.jpg"); 
 	background-repeat: repeat; 
 	background-position: left top;
-	max-width: 45em;
-	min-width: 22em;
-	min-height: 40em;
-	height: 90%;
+	min-width: 35em;
+	min-height: 35em;
+	width: 90%;
 	text-align: center;
 	display: block;
 	margin: auto;
+	padding-top: 2	0pt;
+	padding-bottom: 30pt;
 	border: 3pt solid white;
-	outline-color: red;
-	position: relative;
+	outline-color: red;	
 }
 .topSlideBox {
-	border-bottom: 0pt;
+	margin-top: 2%;
+	border-bottom: 0;
 }
 .middleSlideBox {
-	border-top: 0pt;
-	border-bottom: 0pt;
+	border-top: 0;
+	border-bottom: 0;
 }
 .bottomSlideBox {
-	border-top: 0pt;
+	background-image: url("baymax.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-color: rgb(100, 200, 0);
+	margin-bottom: 2%;
+	border-top: 0;
+	height: 15em;
+	min-height: 0;
 }
+
 .titleBox {
-	padding: 40pt;
+	padding-top: 40pt;
+	padding-bottom: 20pt;
 }
 .titleTextBox {
 	position: absolute;
-	left: 10pt;
-	padding: 10pt;
-	margin: 10pt;
+	left: 1%;
+	padding: 1%;
+	margin: 1%;
 }
 #regBox {
-	padding: 10pt;
-	margin: 10pt;
+	padding: 1%;
+	margin: 1%;
 }
 .textBox {
 	position: absolute;
 	left: 240pt;
-	padding: 10pt;
-	margin: 10pt;
+	padding: 1%;
+	margin: 1%;
+}
+.commentTitle {
+	color: #e0e0e0; 
+	font-family: "Lato"; 
+	font-weight: 300;	
+}
+.commentText {
+	color: #BDBDBD; 
+	font-family: "Lato"; 
+	font-weight: 300;	
 }
 .posterBox {
 	position: absolute;
-	left: 10pt;
-	padding: 10pt;
-	margin: 10pt;
+	left: 1%;
+	padding: 1%;
+	margin: 1%;
 }
 .posterImg {
 	margin-left: 4pt; 
 	height: 300pt;
 	position: relative;
-	bottom: -2pt;
+	bottom: 0;
 }
 #sponsorBox {
-	padding-bottom: 10pt;
+	padding-bottom: 1%;
 	margin: auto;
 	position: absolute;
 	bottom: 0;
@@ -124,7 +161,7 @@ body {
 	text-align: center;
 }
 #email {
-	margin-left: 20pt;
+	margin-left: 2%;
 }
 #okImg {
 	visibility: hidden;
@@ -134,6 +171,7 @@ body {
 	position: relative;
 	bottom: -2pt;
 }
+
 h1 { 
 	color: white;
 	font-family: "Lato"; 
