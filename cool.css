@@ -160,6 +160,22 @@ html , body {
 	padding: 1%;
 	margin: 1%;
 }
+
+.trailerLink {
+	color: white;
+	text-decoration: none;
+	font-family: "Lato"; 
+	font-weight: 400; 	
+	font-size: 150%;
+	font-weight: bold;	
+}
+.no-flash .trailerLink { 
+	display: none; 
+}
+.flash .trailerLink { 
+	display: block;
+}
+
 .commentTitle {
 	color: #e0e0e0; 
 	font-family: "Lato"; 
