@@ -53,6 +53,7 @@ html , body {
  	margin: 0;
     padding: 0;
 	height: 100%;
+	font-size: 12pt;
 }
 #header{
 	position: fixed;
@@ -125,21 +126,20 @@ html , body {
 }	
 .navDown {
 	margin-left: 2%;
-	margin-top: 1%;
+	margin-top: 3%;
 	float: left;
 }
 .navUp {
 	margin-right: 2%;
-	margin-top: 2%;
+	margin-top: 3%;
 	float: right;
 }
 .navLink {
 	color: white;
+	font-family: "Impact"; 
+	font-size: 3em;
+	font-weight: bold;		
 	text-decoration: none;
-	font-family: "Lato"; 
-	font-weight: 400; 	
-	font-size: 500%;
-	font-weight: bold;	
 }
 
 .titleBox {
@@ -159,6 +159,10 @@ html , body {
 	left: 240pt;
 	padding: 1%;
 	margin: 1%;
+}
+
+.trailerBox {
+	display: none;
 }
 
 .trailerLink {
