@@ -120,9 +120,6 @@ html , body {
 	padding-top: 2em;
 	padding-bottom: 0em;
 }
-.navBox {
-	width: 100%;
-}	
 .navDown {
 	margin-left: 2%;
 	margin-top: 3%;
@@ -139,15 +136,6 @@ html , body {
 	font-size: 3em;
 	font-weight: bold;		
 	text-decoration: none;
-}
-
-.titleBox {
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-.titleTextBox {
-	padding: 1%;
-	margin: 1%;
 }
 #regBox {
 	padding: 1%;
@@ -233,6 +221,8 @@ h1 {
 	word-spacing: 0.35em;
 	font-size: 250%;
 	font-weight: bold;
+	margin-top: 4%;
+	padding-bottom: 1em;
 }
 label { 
 	color: white; 
