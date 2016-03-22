@@ -120,22 +120,22 @@ html , body {
 	padding-top: 2em;
 	padding-bottom: 0em;
 }
-.navDown {
-	margin-left: 2%;
+
+a {
 	margin-top: 3%;
-	float: left;
-}
-.navUp {
-	margin-right: 2%;
-	margin-top: 3%;
-	float: right;
-}
-.navLink {
 	color: white;
 	font-family: "Impact"; 
 	font-size: 3em;
 	font-weight: bold;		
-	text-decoration: none;
+	text-decoration: none;	
+}
+.navDown {
+	margin-left: 2%;	
+	float: left;
+}
+.navUp {
+	margin-right: 2%;
+	float: right;
 }
 #regBox {
 	padding: 1%;
