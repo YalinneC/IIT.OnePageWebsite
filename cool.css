@@ -54,7 +54,7 @@ html , body {
     padding: 0;
 	height: 100%;
 }
-#header{
+#topDecoBar{
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -63,7 +63,7 @@ html , body {
 	background-color:rgba(255,255,255,0.56);
 	z-index:9;
 }
-#footer{
+#bottomDecoBar{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -71,10 +71,6 @@ html , body {
 	background-color:#fff;
 	background-color:rgba(255,255,255,0.56);
 	z-index:9;
-}
-#mainBG {
-	height: 100%
-    background-color: rgb(42, 42, 42);		
 }
 
 #slidesContainer {
@@ -86,37 +82,32 @@ html , body {
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	min-height: 96%;
 	max-width: 80em;
 	margin: auto;
 }
 
-.slideBox { 
+section { 
 	position: relative;
 	background-image: url("oscarClipartNegSmDist.jpg"); 
 	background-repeat: repeat; 
 	background-position: left top;
-	min-width: 30em;
-	min-height: 35em;
+	min-width: 25em;
+
 	width: 90%;
 	text-align: center;
 	display: block;
 	margin: auto;
 	padding-top: 3em;
-	padding-bottom: 14em;
-	border: 0.15em solid white;
-	border-top: 0;
-	border-bottom: 0;
+	padding-bottom: 25em;
+	border-left: 0.15em solid white;
+	border-right: 0.15em solid white;
 }
 
 .bottomSlideBox {
 	background-image: url("baymax.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
-	background-color: rgb(100, 200, 0);
-	border-top: 0;
 	height: 15em;
-	min-height: 0;
 	padding-top: 2em;
 	padding-bottom: 0em;
 }
@@ -136,10 +127,6 @@ a {
 .navUp {
 	margin-right: 2%;
 	float: right;
-}
-#regBox {
-	padding: 1%;
-	margin: 1%;
 }
 .textBox {
 	position: absolute;
@@ -194,16 +181,6 @@ a {
     opacity:1.0;
 }
 
-#sponsorBox {
-	margin: auto;
-	position: absolute;
-	padding-top: 5em;
-	width: 100%;
-	text-align: center;
-}
-#email {
-	margin-left: 2%;
-}
 #okImg {
 	visibility: hidden;
 	margin-left: 0.4em;
