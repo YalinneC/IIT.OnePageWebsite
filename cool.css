@@ -73,7 +73,7 @@ html , body {
 	z-index:9;
 }
 
-#slidesContainer {
+article {
     display: -webkit-flex;
     display: flex;
 	-webkit-align-items: center;
@@ -91,25 +91,30 @@ section {
 	background-image: url("oscarClipartNegSmDist.jpg"); 
 	background-repeat: repeat; 
 	background-position: left top;
-	min-width: 25em;
-
-	width: 90%;
-	text-align: center;
+	
+	width: 96%;
+	
 	display: block;
 	margin: auto;
-	padding-top: 3em;
-	padding-bottom: 25em;
+	padding-top: 4em;
+	padding-bottom: 10em;
 	border-left: 0.15em solid white;
 	border-right: 0.15em solid white;
 }
 
-.bottomSlideBox {
+footer {
 	background-image: url("baymax.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
+
+	width: 96%;
+	
+	display: block;
 	height: 15em;
 	padding-top: 2em;
 	padding-bottom: 0em;
+	border-left: 0.15em solid white;
+	border-right: 0.15em solid white;
 }
 
 a {
@@ -129,8 +134,8 @@ a {
 	float: right;
 }
 .textBox {
-	position: absolute;
-	left: 42%;
+	position: relative;
+
 	padding: 1%;
 	margin: 1%;
 }
@@ -144,7 +149,7 @@ a {
 	text-decoration: none;
 	font-family: "Lato"; 
 	font-weight: 400; 	
-	font-size: 150%;
+	font-size: 1.8em;
 	font-weight: bold;	
 }
 .no-flash .trailerLink { 
@@ -169,7 +174,7 @@ a {
 	left: 1%;
 	padding: 1%;
 	margin: 1%;	
-	width: 40%;
+	width: 36%;
 	bottom: 0;
     vertical-align:top;
     opacity: 0.85;
@@ -190,30 +195,35 @@ a {
 	bottom: -0.1em;
 }
 
+#intro {
+	text-align: center;
+}
+
 h1 { 
 	color: white;
 	font-family: "Lato"; 
 	font-weight: 300; 
 	letter-spacing: 0.2em;
 	word-spacing: 0.35em;
-	font-size: 250%;
+	font-size: 3em;
 	font-weight: bold;
 	margin-top: 4%;
 	padding-bottom: 1em;
+	text-align: center;
 }
 label { 
 	color: white; 
 	font-family: "Lato"; 
 	font-weight: 400;
-	font-size: 120%;
-	line-height: 140%;	
+	font-size: 1.7em;
+	line-height: 1.4em;	
 }
 p { 
 	color: white; 
 	font-family: "Lato"; 
 	font-weight: 300;
-	font-size: 120%;
-	line-height: 140%;
+	font-size: 1.7em;
+	line-height: 1.4em;
 }
 li {
 	margin: 0.3em;
